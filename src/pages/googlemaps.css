@@ -1,0 +1,101 @@
+/* googlemaps.css */
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .leaflet-search-control {
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .leaflet-search-control input {
+    width: 200px;
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+  .leaflet-search-control button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .leaflet-search-control button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Tambahkan ini ke file CSS global Anda */
+.mapboxgl-ctrl {
+  z-index: 1000; /* Pastikan kontrol berada di atas elemen lainnya */
+}
+
+.mapboxgl-ctrl-geocoder {
+  position: absolute;
+  top: 10px; /* Jarak dari atas peta */
+  left: 950px; /* Jarak dari kiri peta */
+  z-index: 1000; /* Pastikan kontrol berada di atas elemen lainnya */
+}
+
+/* Custom Leaflet popup styles */
+.leaflet-popup-content {
+  font-family: 'Poppins', sans-serif; /* Gaya font */
+  font-size: 14px;
+  padding: 10px;
+  color: #333; /* Warna teks */
+  text-align: center;
+}
+
+.leaflet-popup-content-wrapper {
+  height: 200px;
+  width: 300px;
+  background-color: #f9f9f9; /* Warna latar belakang */
+  border-radius: 8px; /* Sudut melengkung */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
+}
+
+.leaflet-popup-tip {
+  background-color: #f9f9f9; /* Sama dengan background popup */
+}
+
+.location-name h4 {
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: #2c3e50; /* Warna judul */
+}
+
+.location-name p {
+  margin: 5px 0 10px;
+  font-size: 12px;
+  color: #555; /* Warna deskripsi */
+}
+
+.chart-popup {
+  margin-top: 10px;
+}
+
+canvas {
+  width: 100% !important;
+  height: 100px;
+}
+canvas .chart-canvas {
+  height: 100px;
+  width: 100px;
+}
+element.style {
+  display: block;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+}

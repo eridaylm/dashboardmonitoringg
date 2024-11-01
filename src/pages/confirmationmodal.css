@@ -1,0 +1,53 @@
+.confirmation-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.confirmation-modal-content {
+  background-color: var(--modal-bg); /* Menggunakan variabel tema */
+  color: var(--modal-text-color); /* Menggunakan variabel tema */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  height: 150px;
+}
+
+.confirmation-modal-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 90px;
+}
+
+.confirmation-modal p {
+  font-family: 'Poppins';
+  margin-bottom: -80px;
+  margin-top: 25px;
+  text-align: center;
+  color: var(--modal-text-color); /* Menggunakan variabel tema */
+}
+
+.confirm-button {
+  background-color: #d9534f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #5bc0de;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

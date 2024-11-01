@@ -1,0 +1,116 @@
+:root {
+  --background-color-light: #f8f9fa;
+  --background-color-dark: #343a40;
+  --text-color-light: #212529;
+  --text-color-dark: #ffffff;
+  --chart-bg: #ffffff;
+  --chart-bg-dark : #343a40;
+}
+/* .dark-mode {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+} */
+
+/* .dark-mode, .dark-mode {
+  background-color: var(--background-color-light) !important;
+} */
+
+.dark-mode .content, .dark-mode .sidebar, .dark-mode .content2, .dark-mode .panel-header.bg-primary {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+}
+
+.toggle-dark-mode-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  width: 38px;
+  height: 38px;
+  margin-right: 10px;
+  margin-top: -8px;
+  z-index: 1;
+}
+.toggle-dark-mode-btn img:hover {
+  background-color: transparent;
+}
+
+/* Default (Light Mode) */
+.panel-header.bg-primary {
+  background-color: #007bff;
+}
+
+.text-dark {
+  color: #000;
+}
+
+.calendar img {
+  filter: none;
+}
+
+/* Menimpa gaya default saat dark mode aktif */
+.dark-mode .bg-primary {
+  background-color: #343a40 !important; /* Warna latar belakang lebih gelap untuk dark mode */
+}
+
+.dark-mode .text-white {
+  color: #ffffff !important; /* Tetap putih di dark mode */
+}
+
+.dark-mode .text-dark {
+  color: #e0e0e0 !important; /* Sesuaikan warna teks untuk dark mode */
+}
+
+.dark-mode .calendar  {
+ background-color: var(--background-color-dark);
+ color: var(--text-color-dark);
+}
+/* Aturan untuk light mode (default) */
+.btn-border.btn-white {
+  margin-top: 20px;
+  margin-left: 835px;
+  color: black !important;
+  border: 1px solid #6402c4 !important;
+}
+
+/* Aturan untuk dark mode */
+.dark-mode .btn-border.btn-white {
+  color: #f3f6fd !important; /* Warna font terang untuk dark mode */
+  border: 1px solid #a17bf7 !important; /* Opsional: Ubah juga warna border di dark mode */
+}
+
+.dark-mode .age {
+  background-color: var(--chart-bg-dark);
+}
+
+.dark-mode .age h4 {
+  color: var(--text-color-dark);
+}
+.dark-mode .gender {
+  background-color: var(--chart-bg-dark);
+}
+
+.dark-mode .gender h4 {
+  color: var(--text-color-dark);
+}
+.dark-mode .bloodtype {
+  background-color: var(--chart-bg-dark);
+}
+
+.dark-mode .bloodtype h4 {
+  color: var(--text-color-dark);
+}
+.dark-mode .occupation {
+  background-color: var(--chart-bg-dark);
+}
+
+.dark-mode .occupation h4 {
+  color: var(--text-color-dark);
+}
+
+.dark-mode .cardash {
+  background-color: var(--background-color-dark);
+}
+.dark-mode .cardash p {
+  color: var(--text-color-dark);
+}

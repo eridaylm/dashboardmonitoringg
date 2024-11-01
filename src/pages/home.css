@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+/*arial/*
+/* sans-serif */
+/* color : #2259c8; */
+.navbar h4 {
+  color: #0262f2;
+  margin-top: 25px;
+  margin-left: 100px;
+  font-size: 20px;
+  font-family: 'Metropolis';
+  font-weight: 600;
+}
+.navbar ul {
+  list-style-type: none; /* Menghilangkan bullet pada list */
+  margin: 0; /* Menghapus margin default */
+  padding: 0; /* Menghapus padding default */
+  display: flex; /* Menyusun item secara horizontal */
+  align-items: center; /* Membuat item sejajar secara vertikal */
+}
+
+.navbar ul li {
+  margin-top: 25px;
+  margin-right: 40px; /* Memberi jarak antar item */
+  font-family: 'Metropolis';
+  font-weight: 400;
+  letter-spacing: 0.07em;
+}
+
+.navbar ul li:last-child {
+  margin-right: 0; /* Menghapus margin dari item terakhir */
+}
+
+.header-dashboard .navbar button {
+  display: flex; /* Untuk menampilkan teks dan gambar secara horizontal */
+  align-items: center; /* Untuk mengatur posisi vertikal teks dan gambar */
+  padding: 8px 16px; /* Menambahkan padding pada tombol */
+  background-color: #007bff; /* Warna latar tombol */
+  color: white; /* Warna teks tombol */
+  border: none; /* Menghilangkan border */
+  border-radius: 4px; /* Menambahkan border-radius */
+  cursor: pointer; /* Mengubah kursor menjadi pointer saat hover */
+  margin-right: 50px;
+  margin-left: 15px;
+}
+
+.navbar button:hover {
+  background-color: #0056b3; /* Mengubah warna latar saat tombol dihover */
+}
+
+.navbar button .arrow-icon {
+  margin-left: 5px;
+  margin-right: -5px; /* Memberi jarak antara gambar dan teks */
+  width: 16px; /* Lebar gambar */
+  height: 16px; /* Tinggi gambar */
+}
+
+.arrow-icon {
+  margin-left: 8px; /* Jarak antara teks dan ikon */
+  font-size: 11px; /* Ukuran ikon */
+  color: #333; /* Warna ikon */
+  cursor: pointer;
+}
+
+.content-first h2 {
+  margin-top: 170px;
+  font-family: 'Metropolis';
+  font-weight: bold;
+  color: rgb(32, 30, 30);
+  letter-spacing: 0.07em;
+  text-align: center; /* Mengatur teks agar berada di tengah secara horizontal */
+  font-size: 36px;
+}
+.content-first p {
+  font-family: 'Metropolis';
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+.content-first button {
+  display: flex; /* Untuk menampilkan teks dan gambar secara horizontal */
+  align-items: center; /* Untuk mengatur posisi vertikal teks dan gambar */
+  padding: 8px 16px; /* Menambahkan padding pada tombol */
+  background-color: #007bff; /* Warna latar tombol */
+  color: white; /* Warna teks tombol */
+  font-weight: 600;
+  border: none; /* Menghilangkan border */
+  border-radius: 4px; /* Menambahkan border-radius */
+  cursor: pointer; /* Mengubah kursor menjadi pointer saat hover */
+  margin-left: 548px;
+}
+
+.content-first button:hover {
+  background-color: #0056b3; /* Mengubah warna latar saat tombol dihover */
+}
+.content-first button.learnmore{
+  margin-top: -38px;
+  margin-left: 685px;
+  background-color: transparent;
+  color: black;
+}
+.laptop img.wave {
+  margin-top: 110px;
+  width: 100%;
+  height: 550px;
+}
+.pages img.wave2 {
+  margin-top: 110px;
+  width: 100%;
+  height: 250px;
+}
+
+.app img.square {
+  height: 1000px;
+  width: 100%;
+}
+.app p {
+  font-family: 'Metropolis';
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+}
+.app h4 {
+  text-transform: uppercase;
+  margin-top: -800px;
+  color: #2362ca;
+  letter-spacing: 0.09em;
+  font-weight:900;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%; /* Bentuk bulat */
+  background-color: #f5f5f5;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.vscode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon1 {
+  width: 40px; /* Sesuaikan ukuran sesuai kebutuhan */
+  height: 40px; /* Sesuaikan ukuran sesuai kebutuhan */
+  margin-bottom: 10px;
+  border-radius: 50%; /* Untuk membuat icon berbentuk lingkaran */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow pada icon */
+}
+.card-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.card-description {
+  font-size: 0.9em;
+  color: #666;
+}

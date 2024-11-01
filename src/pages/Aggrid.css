@@ -1,0 +1,258 @@
+.action-container {
+    display: flex;
+    gap: 5px; /* Space between buttons */
+  }
+  
+  .action-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } 
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+    margin-left: -12px;
+    width: 70px;
+    font-size: 16px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .update-button {
+    background-color: #28a745;
+    color: white;
+    margin-top: -30px;
+    margin-left: 65px;
+    width: 70px;
+    font-size: 16px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+    margin-left: 140px;
+    margin-top: -30px;
+    width: 70px;
+    font-size: 16px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  /* Aggrid.css */
+/* .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  } */
+  
+  .modal h2 {
+    margin-bottom: 10px;
+    margin-left: 210px;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .modal {
+    display: block !important;
+    z-index: 9999 !important;
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    background-color: white !important; /* Pastikan latar belakang muncul */
+    width: 500px;
+    height: 670px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  .modal2 {
+    display: block !important;
+    z-index: 9999 !important;
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    background-color: white !important; /* Pastikan latar belakang muncul */
+    width: 400px;
+    height: 190px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .modal-overlay2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  
+  .modal input {
+    margin-left: 60px;
+    background-color: transparent;
+    width: 350px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal select {
+    margin-left: 60px;
+    width: 350px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .modal button {
+    margin-left: 120px;
+    padding: 10px 15px;
+  
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+  }
+  .modal2 button {
+    margin-left: 100px;
+    padding: 10px 15px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+  }
+  .modal2 h2 {
+    font-family: 'Metropolis';
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+  .button-container {
+    max-width: 200px;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: flex-start; /* Align items to the start horizontally */
+  gap: 4px; /* Space between buttons */
+  margin-top: 60px; /* Adjust if needed */
+  margin-left: 940px; /* Adjust if needed */
+}
+
+.add-button {
+  height: 45px;
+  width: 220px;
+  font-family: 'Metropolis', sans-serif; /* Font fallback */
+  background-color: #6402c4; /* Background color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor */
+  z-index: 100;
+  transition: background-color 0.3s ease; /* Hover effect */
+}
+
+.manage-btn {
+  color: black;
+  background-color: transparent;
+  border: 2px solid #6402c4;
+  border-radius: 50px;
+  width: 120px;
+  height: 45px;
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease; /* Hover effect */
+}
+
+  
+
+
+  /* Menambahkan border radius pada tabel */
+.ag-theme-alpine {
+  border-radius: 5px;
+  overflow-y: hidden ;
+  overflow-x: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mewarnai kolom "Nama Lengkap" */
+.ag-theme-alpine .ag-header-cell[col-id="nama_lengkap"] {
+  background-color: #879CB3;
+  color: #333;
+}
+
+.ag-theme-alpine .ag-row .ag-cell[col-id="nama_lengkap"] {
+  background-color: #e6f7ff;
+  color: #333;
+}
+
+/* Mewarnai kolom "Email" */
+.ag-theme-alpine .ag-header-cell[col-id="email"] {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.ag-theme-alpine .ag-row .ag-cell[col-id="email"] {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Mewarnai kolom "Password" */
+.ag-theme-alpine .ag-header-cell[col-id="password"] {
+  background-color: #ffefef;
+  color: #333;
+}
+
+.ag-theme-alpine .ag-row .ag-cell[col-id="password"] {
+  background-color: #ffe5e5;
+  color: #333;
+}
+
+/* Tambahkan warna untuk kolom lainnya sesuai kebutuhan */
+
+  

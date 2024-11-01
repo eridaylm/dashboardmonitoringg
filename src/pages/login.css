@@ -1,0 +1,312 @@
+/* register.css */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#root {
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+.login-form {
+    border-radius: 22px; /* Radius sudut */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7); /* Lebih hitam dan lebih terlihat */
+    padding: 20px; /* Spasi di dalam form */
+    margin: 20px; /* Margin sekitar form */
+    width: 1000px; /* Lebar form */
+    height: 505px; /* Tinggi form */
+    position: fixed; /* Posisi relative */
+    overflow: hidden; /* Sembunyikan elemen yang keluar */
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+    z-index: 1; /* Z-index agar berada di atas elemen lainnya */
+    margin-left: 120px;
+    margin-top: 40px;
+    background-color: #ffffff;
+}
+/* Menetapkan tinggi input */
+.form-group-log .input {
+    height: 40px; /* Sesuaikan tinggi sesuai kebutuhan */
+    padding: 10px; /* Sesuaikan padding sesuai kebutuhan */
+    border-radius: 5px; /* Sesuaikan border-radius sesuai kebutuhan */
+    font-size: 11px;
+    font-family: 'Poppins';
+    pointer-events: auto; 
+    color: black;
+}
+
+.login-form input::placeholder,
+.login-form select::placeholder,
+.login-form textarea::placeholder {
+    color: rgb(52, 51, 51); /* Placeholder color */
+    font-family: 'Poppins'; /* Font family for placeholder */
+    font-size: 12px; /* Font size for placeholder */
+    font-weight: 400; /* Font weight for placeholder */
+    text-align: left;
+}
+
+/* Menetapkan tinggi textarea */
+.form-group-log textarea {
+    height: 100px; /* Sesuaikan tinggi sesuai kebutuhan */
+    padding: 10px; /* Sesuaikan padding sesuai kebutuhan */
+    border-radius: 20px; /* Sesuaikan border-radius sesuai kebutuhan */
+    resize: vertical; /* Memungkinkan perubahan ukuran vertikal */
+}
+
+/* Menetapkan tinggi select */
+.form-group select {
+    height: 40px; /* Sesuaikan tinggi sesuai kebutuhan */
+    padding: 10px; /* Sesuaikan padding sesuai kebutuhan */
+    border-radius: 10px; /* Sesuaikan border-radius sesuai kebutuhan */
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.login-form input,
+.login-form select,
+.login-form textarea {
+    /* width: 100%; */
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+#nama_lengkap.input {
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    width: 225px;
+    
+}
+
+.form-group-log {
+    margin-left: 10px;
+    margin-top: -320px;
+    margin-bottom: 18px;
+    height: 400px; /* Tentukan tinggi elemen agar bisa di-scroll */
+    overflow-y: auto; /* Aktifkan scroll hanya untuk vertikal */
+    padding: 20px; /* Menambahkan spasi di dalam */
+    scrollbar-width: 50px; /* Scrollbar lebih kecil di Firefox */
+    scrollbar-color: #1865cf; /* Warna scrollbar di Firefox */
+    
+}
+.form-group-log h1{
+    font-family: 'Montserrat';
+    margin-top: 200px;
+    margin-left: -500px;
+    color: black;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+/* Untuk Chrome, Edge, dan Safari */
+.form-group-log::-webkit-scrollbar {
+    height: 100px;
+    width: 17px; /* Lebar scrollbar */
+    border-radius: 50px; /* Membuat scrollbar bulat */
+}
+
+.form-group-log::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Warna background track scrollbar */
+    border-radius: 50px; /* Membuat track bulat */
+}
+
+.form-group-log::-webkit-scrollbar-thumb {
+    background-color: #1865cf; /* Warna scrollbar */
+    border-radius: 10px; /* Membuat ujung scrollbar bulat */
+    border: 2px solid #f1f1f1; /* Tambahkan border agar tampak lebih elegan */
+}
+
+.form-group-log::-webkit-scrollbar-thumb:hover {
+    background-color: #1456a8; /* Warna scrollbar saat dihover */
+}
+
+.form-group-log label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-family: 'Poppins';
+    font-size: 10px;
+    text-align: left;
+    color: black;
+}
+.log-empass {
+    color: black;
+    margin-top: 54px;
+    width: 370px;
+    margin-top: 45px;
+}
+
+.log-container {
+    background-color: transparent; /* White background for the container */
+    border-radius: 2px; /* Rounded corners */
+    padding: 10px; /* Padding inside the container */
+    width: 1200px; /* Full width within the max-width constraint */
+    height: 590px;
+    text-align: center; /* Center align content */
+    opacity: 0.9; /* Kurangi opacity */
+}
+
+/* Styling input fields */
+.login-form input,
+.login-form select,
+.login-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px; /* Jarak antar elemen */
+    padding: 10px; /* Spasi dalam input */
+    border-radius: 10px; /* Radius sudut input */
+    border: 1px solid #ccc; /* Border input */
+    text-align: left;
+}
+
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfe0e4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    width: 1385px;
+    height: 700px; 
+    padding: 0;
+    margin: 0;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.password-container-reg {
+    position: relative;
+    z-index: 2; /* Ensure it's above other elements-log */
+}
+#email.input {
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    width: 370px;
+    z-index: 10; /* Pastikan z-index cukup tinggi */
+    position: relative; /* Pastikan input tetap pada posisi relative atau absolute */
+    margin-left: 0px;
+}
+
+.password-container-reg input {
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    width: 370px;
+    
+}
+.form-group-log input {
+    color: black;
+}
+
+.eye-icon-reg {
+    position: absolute;
+    right: 15px; /* Adjust as needed to fit the input */
+    top: 50%;
+    z-index: 1000; /* Ensure it's higher than other elements-log */
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 20px;
+    height: auto;
+}
+
+.elements-log {
+    margin-left: 500px; /* Menggeser gambar ke kiri */
+    margin-top: -20px;
+    width: 600px; /* Sesuaikan ukuran gambar */
+    margin-right: 20px; /* Spasi antara gambar dan teks */
+    margin-bottom: -10px;
+    transform: rotate(180deg); /* Memutar gambar 180 derajat */
+}
+/* login.css */
+.forgot-link {
+    cursor: pointer;
+    text-align: left; /* Letakkan link di sebelah kanan */
+    position: relative;
+    margin-top: -490px; /* Jarak antara input dan link */
+    margin-left: 250px;
+    color: #1865cf; /* Warna link */
+    text-decoration: none; /* Hilangkan garis bawah */
+}
+.elemen-login {
+    position: relative; /* Agar anak-anaknya bisa menggunakan z-index */
+    text-align: left; /* Posisi teks ke kiri */
+}
+.elemen-login h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px; /* Jarak dari atas, sesuaikan dengan kebutuhan */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -350px;
+    z-index: 10; /* Sesuaikan jika h2 harus di atas elemen lainnya */
+    margin-left: 490px; /* Sesuaikan margin kiri */
+    position: relative; /* Agar z-index berfungsi */
+    text-align: center; /* Pusatkan teks jika diinginkan */
+}
+.elemen-login p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: 10px; /* Jarak antara teks h2 dan paragraf */
+    margin-left: 490px;
+    text-align: center; /* Pusatkan teks */
+    position: relative; /* Agar z-index berfungsi */
+    z-index: 15; /* Pastikan p berada di atas elemen lain */
+}
+.elemen-login button {
+    color: white;
+    margin-left: 655px;
+    margin-top: 100px;
+    border: 2px white solid;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent; /* Menambahkan warna latar belakang jika diperlukan */
+    position: relative; /* Agar z-index berfungsi */
+    z-index: 20; /* Pastikan tombol berada di atas elemen lain */
+}
+.name-group {
+    width: 150px;
+    margin-bottom: -35px;
+}
+
+.name-group label {
+    font-size: 11px;
+}
+
+.name-group .input {
+    gap: 10px;
+}
+
+.btn-masuk {
+    font-family: 'Poppins', sans-serif; /* Gunakan font Poppins */
+    background-color: #3FA2F6; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Hapus border default tombol */
+    padding: 10px 20px; /* Tambahkan padding untuk membuat tombol lebih besar */
+    border-radius: 5px; /* Tambahkan border radius untuk sudut yang membulat */
+    cursor: pointer; /* Ubah kursor menjadi pointer saat hover */
+    font-size: 16px; /* Ukuran font tombol */
+    transition: background-color 0.3s; /* Tambahkan transisi untuk efek hover */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    margin-top: -200px;
+    /* margin-bottom: -13px; */
+    width: 100px;
+    margin-left: -540px;
+}
+
+.btn-daftar:hover {
+    background-color: #2a8ed4; /* Warna latar belakang saat hover */
+}
+
+.login-container {
+  position: relative;
+}

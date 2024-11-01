@@ -1,0 +1,300 @@
+.u-text h4 {
+    text-align: left;
+}
+.main-panel {
+    overflow-y: auto; /* Enable scrolling for the entire panel */
+    max-height: 100vh; /* Limit the height to the viewport */
+  }
+  
+
+.content h2 {
+    margin-top: 8px;
+    margin-left: -125px;
+    margin-bottom: 20px;
+    font-family: 'Metropolis';
+    font-weight: bold;
+    color: rgb(32, 30, 30);
+    letter-spacing: 0.07em;
+    text-align: center; /* Mengatur teks agar berada di tengah secara horizontal */
+    font-size: 27px;
+}
+.date-time-info {
+    margin-top: -28px;
+    margin-bottom: 30px;
+}
+.calendar {
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 513px; /* Posisikan elemen di sebelah kanan */
+    margin-bottom: 30px;
+}
+.username h2{
+    font-family: 'Metropolis';
+    letter-spacing: 0.05em;
+    margin-top: 10px;
+    color: white;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.ms-md-4 {
+    margin-left: 1.2rem; /* Tambahkan jarak antara elemen di sebelah kirinya */
+}
+
+.p-3 {
+    padding: 1rem;
+}
+
+.me-2 {
+    margin-right: 0.5rem;
+}
+
+.text-dark {
+    color: #343a40;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.pb-2 {
+    padding-bottom: 0.5rem;
+}
+
+.content2 {
+    height: 2000px;
+    background-color: #f2f6fc;
+    margin-top: -375px;
+    padding: 30px;
+}
+
+.cardash {
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 20px 0;
+    background-color: white;
+    width: 1050px;
+    height: 360px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cardash img {
+    margin-top: -148px;
+    height: 430px;
+    width: 1050px;
+}
+
+.cardash h4 {
+    font-family: 'Metropolis';
+    margin-left: 50px;
+    margin-top: 70px;
+    color: #0262f2;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+.cardash p {
+    font-family: 'Metropolis';
+    margin-left: 50px;
+    color: rgb(95, 95, 95);
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+.cardash img.elemen {
+    width: 400px;
+    height: 400px;
+    margin-left: 600px;
+    margin-top: -580px;
+}
+
+
+.age {
+    margin-top: 60px;
+    border-radius: 5px;
+    width: 382px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+.age h4 {
+    font-family: 'Metropolis';
+    color: #0262f2;
+    font-weight: bold;
+    margin-left: 165px;
+    margin-top: 5px;
+    letter-spacing: 0.05em;
+}
+
+/* Add a colored strip to the left side */
+.age::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px; /* Width of the colored strip */
+    height: 100%;
+    background-color: #3498db; /* Replace with your desired color */
+}
+.bloodtype {
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-left: 0px;
+    width: 1065px;
+    height: 260px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+.bloodtype h4 {
+    font-family: 'Metropolis';
+    color: #c40202;
+    font-weight: bold;
+    margin-left: 490px;
+    margin-top: 10px;
+    letter-spacing: 0.05em;
+}
+
+/* Add a colored strip to the left side */
+.bloodtype::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px; /* Width of the colored strip */
+    height: 100%;
+    background-color: #c40202; /* Replace with your desired color */
+}
+.gender {
+    margin-top: -200px;
+    border-radius: 5px;
+    margin-left: 400px;
+    width: 375px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+.gender h4 {
+    font-family: 'Metropolis';
+    color: #6402c4;
+    font-weight: bold;
+    margin-left: 140px;
+    margin-top: 10px;
+    letter-spacing: 0.05em;
+}
+
+/* Add a colored strip to the left side */
+.gender::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px; /* Width of the colored strip */
+    height: 100%;
+    background-color: #6402c4; /* Replace with your desired color */
+}
+.occupation {
+    margin-top: -510px;
+    border-radius: 5px;
+    margin-bottom: 300px;
+    margin-left: 800px;
+    width: 260px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+.occupation h4 {
+    font-family: 'Metropolis';
+    color:#30a071;
+    font-weight: bold;
+    margin-left: 105px;
+    margin-top: 5px;
+    letter-spacing: 0.05em;
+}
+
+/* Add a colored strip to the left side */
+.occupation::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px; /* Width of the colored strip */
+    height: 100%;
+    background-color: #30a071; /* Replace with your desired color */
+}
+
+.navbar-brand  img{
+    width: 200px;
+}
+
+.maps {
+    margin-top: 50px;
+}
+
+/* Sidebar navigation */
+.nav {
+    list-style: none;
+    overflow-y: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Sidebar items */
+  .nav-item {
+    margin-bottom: -10px; /* Add space between items */
+    overflow-y: hidden;
+  }
+  
+  .nav-item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-item a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Icons */
+  .nav-item i {
+    margin-right: 0.5rem;
+  }
+  
+  /* Logout item styling */
+  .logout-item {
+    cursor: pointer;
+    position: absolute; /* Position this element absolutely within the sidebar */
+    bottom: 5; /* Align to the bottom of the sidebar */
+    left: 0; /* Align to the left of the sidebar */
+    width: 100%; /* Ensure it spans the width of the sidebar */
+    z-index: 1000; /* High z-index value to ensure it's on top */
+    background-color: transparent; /* Optional: background color for visibility */
+    padding: 10px; /* Optional: add padding for better spacing */
+}
+  
+  .logout-item a {
+    color: #ff4d4d; /* Red color for logout */
+  }
+  
+  .logout-item a:hover {
+    background-color: #ffe6e6; /* Light red background on hover */
+  }
+  

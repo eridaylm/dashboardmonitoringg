@@ -1,0 +1,89 @@
+/* Center the OTP form on the page */
+.otp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white; /* Dark background color */
+  }
+  
+  .otp-form {
+    background-color: white; /* Slightly lighter background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin-top: -80px;
+    margin-left: 50px;
+    height: 217px;
+  }
+  
+  .otp-form label {
+    color: black; /* Light text color */
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+    display: block;
+    font-family: 'Montserrat';
+  }
+  
+  .otp-input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid black; /* Black stroke */
+    border-radius: 6px;
+    background-color: white;
+    color: black; /* White text color */
+    font-size: 1rem;
+    text-align: center;
+}
+
+  
+  .otp-input:focus {
+    outline: none;
+    border: 2px solid #3FA2F6; /* Green border on focus */
+  }
+
+  .otp-inputs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .otp-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #3FA2F6; /* Green button background */
+    color: #ffffff; /* White text color */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .otp-button:hover {
+    background-color: #4577a0; /* Darker green on hover */
+  }
+  
+  .otp-button:disabled {
+    background-color: #6c757d; /* Disabled gray button */
+    cursor: not-allowed;
+  }
+  
+  /* Add responsiveness */
+  @media (max-width: 768px) {
+    .otp-form {
+      padding: 15px;
+    }
+  
+    .otp-input,
+    .otp-button {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  
